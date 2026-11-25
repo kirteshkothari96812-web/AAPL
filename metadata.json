@@ -1,0 +1,6 @@
+{
+  "name": "Aadi Aarambh",
+  "description": "Mobile-first POS billing, inventory tracking, and monthly sales ledger for Aadi Aarambh Private Limited with live Google Sheets sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

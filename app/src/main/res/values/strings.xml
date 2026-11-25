@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Aadi Aarambh</string>
+    <string name="company_full_name">Aadi Aarambh Private Limited</string>
+    <string name="company_subtitle">Organic Store POS</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_new_sale">New Sale</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_ledger">Ledger</string>
+    <string name="nav_stock">Stock</string>
+
+    <!-- Header & Sync -->
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Sync with Google Sheet</string>
+    <string name="status_live_synced">Live Sheet</string>
+    <string name="status_blank_sheet">Blank Sheet</string>
+    <string name="status_local_mode">Local Mode</string>
+    <string name="status_syncing">Syncing…</string>
+    <string name="status_sync_error">Sync Error</string>
+    <string name="banner_blank_sheet_title">Blank Google Sheet detected</string>
+    <string name="banner_blank_sheet_action">Push %1$d Products to Sheet</string>
+    <string name="banner_no_url">Connect your Google Apps Script URL in Settings to sync live</string>
+
+    <!-- Tab 1: New Sale -->
+    <string name="pos_search_placeholder">Search product by name…</string>
+    <string name="pos_customer_label">Customer Name (Optional)</string>
+    <string name="pos_customer_default">Walk-in Customer</string>
+    <string name="pos_customer_mobile_label">Mobile Number (Optional)</string>
+    <string name="pos_customer_mobile_placeholder">e.g. 9876543210</string>
+    <string name="pos_customer_address_label">Address (Optional)</string>
+    <string name="pos_customer_address_placeholder">Customer address / area</string>
+    <string name="pos_cart_empty_title">Ready for a fresh organic bill</string>
+    <string name="pos_cart_empty_subtitle">Start typing any product name above to add items to the cart</string>
+    <string name="pos_payment_mode_label">Payment Mode</string>
+    <string name="pos_grand_total">Grand Total</string>
+    <string name="pos_save_sale">Save Sale</string>
+    <string name="pos_clear_cart">Clear</string>
+    <string name="pos_split_remaining">Remaining: %1$s</string>
+    <string name="pos_split_overpaid">Overpaid by: %1$s</string>
+    <string name="pos_split_balanced">Split balanced</string>
+    <string name="pos_fill_remaining">Fill Remaining</string>
+
+    <!-- Tab 2: Dashboard -->
+    <string name="dashboard_month_label">Reporting Month</string>
+    <string name="dashboard_total_sales">Total Monthly Sales</string>
+    <string name="dashboard_total_bills">%1$d Bills</string>
+    <string name="dashboard_cash_collected">Cash Collected</string>
+    <string name="dashboard_online_collected">Online Collected</string>
+    <string name="dashboard_card_collected">Card Collected</string>
+    <string name="dashboard_hsn_lookup_title">Quick HSN &amp; Price Lookup</string>
+    <string name="dashboard_hsn_lookup_hint">Type product name or HSN code…</string>
+
+    <!-- Tab 3: Ledger -->
+    <string name="ledger_search_hint">Search Bill ID, customer, mobile, or product…</string>
+    <string name="ledger_all_months">All Months</string>
+    <string name="ledger_empty_title">No transactions found</string>
+    <string name="ledger_empty_subtitle">Sales recorded in New Sale or synced from Google Sheets will appear here</string>
+
+    <!-- Tab 4: Stock & Products -->
+    <string name="stock_search_hint">Search by Item Name or HSN Code…</string>
+    <string name="stock_add_product">+ Add New Product</string>
+    <string name="stock_col_item">Item Name</string>
+    <string name="stock_col_hsn">HSN Code</string>
+    <string name="stock_col_price">Price</string>
+    <string name="stock_col_stock">Stock</string>
+    <string name="stock_edit_title">Edit Product</string>
+    <string name="stock_add_title">Add New Product</string>
+    <string name="stock_quick_restock">Quick Restock</string>
+    <string name="stock_save_changes">Save Changes</string>
+    <string name="stock_create_product">Add Product</string>
+
+    <!-- Settings Modal -->
+    <string name="settings_title">Google Sheet Sync Settings</string>
+    <string name="settings_url_label">Google Apps Script Web App URL</string>
+    <string name="settings_url_placeholder">https://script.google.com/macros/s/…/exec</string>
+    <string name="settings_save_sync">Save &amp; Sync Now</string>
+    <string name="settings_push_initial">Push Initial Stock to Google Sheet</string>
+    <string name="settings_import_json">Import Full Product Catalog (JSON)</string>
+    <string name="settings_close">Close</string>
+</resources>
